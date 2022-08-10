@@ -171,10 +171,12 @@ video {
   margin-right: 15px;
 }
 
+select, option {
 
+}
 
 select {
-
+  background-color: rgba(0, 0, 0, .4);
   color: var(--font-color);
   border: none;
   font-size: 18px;
@@ -183,7 +185,9 @@ select {
   border-radius: 5px;
 }
 
-
+select:focus {
+  outline: none;
+}
 
 select > option {
   background: rgba(0, 0, 0, 0.9);
